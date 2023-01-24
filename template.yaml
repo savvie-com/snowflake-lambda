@@ -20,6 +20,7 @@ Resources:
       CodeUri: hello-world/
       Handler: app.lambdaHandler
       Runtime: nodejs18.x
+      MemorySize: 512
       Architectures:
       - x86_64
       Events:
